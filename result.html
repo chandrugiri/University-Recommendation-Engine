@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        div.scroll {
+            height: auto;
+            overflow: auto;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 80%;
+            background: #f1f1f1;
+        }
+
+        form.example button {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+
+            form.example button:hover {
+                background: #0b7dda;
+            }
+
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center">Search Results for Term {{q}} </h1>
+    <div class="scroll">
+        <div style=" margin: auto; width: 86%;">
+            <form class="example" action="/action_page.php">
+                <input type="text" placeholder={{q}} name="search">
+                <button type="submit" name="searchTerm"><i class="fa fa-search"></i></button>
+            </form>
+            <br>
+            <br>
+            <span>University Name: University of St Andrews</span>
+            <br>
+            <a href="https://www.st-andrews.ac.uk">UniLink: https://www.st-andrews.ac.uk</a>
+            <br>
+            <span> The Guardian Score: 100.0</span>
+            <br>
+            <span> Course Name: Information Technology</span>
+            <br>
+            <span>
+                About Course:    The MSc in Information Technology develops students' critical understanding of
+                the issues associated with using information technology systems and their impact on business processes and
+                project management.
+            </span>
+            <br>
+            <a href="https://www.st-andrews.ac.uk/subjects/computer-science/information-technology-msc">Course Link: https://www.st-andrews.ac.uk/subjects/computer-science/information-technology-msc</a>
+            <br>
+            <span>Country: Scotland</span>
+            <br>
+            <br>
+
+            <span>University Name: University of St Andrews</span>
+            <br>
+            <a href="https://www.st-andrews.ac.uk">UniLink: https://www.st-andrews.ac.uk</a>
+            <br>
+            <span> The Guardian Score: 100.0</span>
+            <br>
+            <span> Course Name: Information Technology with Management</span>
+            <br>
+            <span>
+                About Course:  The MSc in Information Technology with Management provides students from disciplines other than business and management with the knowledge and the analytical and critical skills needed to manage the information and communication technologies that underpin all successful business practice.
+            </span>
+            <br>
+            <a href="https://www.st-andrews.ac.uk/subjects/computer-science/it-management-msc">Course Link: https://www.st-andrews.ac.uk/subjects/computer-science/it-management-msc</a>
+            <br>
+            <span>Country: Scotland</span>
+            <br>
+            <br>
+
+            <span>University Name: University of St Andrews</span>
+            <br>
+            <a href="https://www.st-andrews.ac.uk">UniLink: https://www.st-andrews.ac.uk</a>
+            <br>
+            <span> The Guardian Score: 100.0</span>
+            <br>
+            <span> Course Name: Computing and Information Technology</span>
+            <br>
+            <span>
+                About Course:    The MSc in Computing and Information Technology develops students'
+                critical understanding of the issues associated with using computing systems and their impact on
+                business processes and project management. It also gives students without prior programming experience
+                the opportunity to gain programming skills in a modern software development environment.
+            </span>
+            <br>
+            <a href=" https://www.st-andrews.ac.uk/subjects/computer-science/computing-information-technology-msc">Course Link:  https://www.st-andrews.ac.uk/subjects/computer-science/computing-information-technology-msc</a>
+            <br>
+            <span>Country: Scotland</span>
+            <br>
+            <br>
+
+            <span>University Name: University of Oxford</span>
+            <br>
+            <a href="https://www.ox.ac.uk">UniLink: https://www.ox.ac.uk</a>
+            <br>
+            <span> The Guardian Score: 95.4</span>
+            <br>
+            <span> Course Name: Software and Systems Security MSc</span>
+            <br>
+            <span>
+                About Course:    About the courseThe MSc in Software and Systems Security teaches
+                the principles of systems security, with a particular emphasis upon the security properties and
+                implications of software and information technologies. It offers working professionals the opportunity to
+                learn more about the application of these principles, current best practice and the latest advances in the
+                field, through a course of part-time study at one of the world's leading universities.
+            </span>
+            <br>
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/msc-software-and-systems-security">Course Link:   https://www.ox.ac.uk/admissions/graduate/courses/msc-software-and-systems-security</a>
+            <br>
+            <span>Country: England</span>
+            <br>
+            <br>
+
+            <span>University Name: University of Oxford</span>
+            <br>
+            <a href="https://www.ox.ac.uk">UniLink: https://www.ox.ac.uk</a>
+            <br>
+            <span> The Guardian Score: 95.4</span>
+            <br>
+            <span> Course Name: Software Engineering MSc</span>
+            <br>
+            <span>
+                About Course:    About the courseThe MSc in Software Engineering teaches the principles of modern
+                software engineering, together with the tools, methods and techniques that support their application.
+                It offers working professionals the opportunity to learn more about the technological advances that are
+                changing their lives, through a course of part-time study at one of the world's leading universities.
+            </span>
+            <br>
+            <a href="https://www.ox.ac.uk/admissions/graduate/courses/msc-software-engineering">Course Link:   https://www.ox.ac.uk/admissions/graduate/courses/msc-software-engineering</a>
+            <br>
+            <span>Country: England</span>
+            <br>
+            <br>
+
+            <span>University Name: University of St Andrews</span>
+            <br>
+            <a href="https://www.st-andrews.ac.uk">UniLink: https://www.st-andrews.ac.uk</a>
+            <br>
+            <span> The Guardian Score: 100.0</span>
+            <br>
+            <span>
+                Course Name: Human Computer Interaction
+            </span>
+            <br>
+            <span>
+                About Course:    The MSc in Human Computer Interaction provides students with the tools, knowledge and
+                skills to become practitioners in the areas of user experience, usability, information visualisation, human
+                factors in computing systems, and human computer interaction research.
+            </span>
+            <br>
+            <a href=" https://www.st-andrews.ac.uk/subjects/computer-science/human-computer-interaction-msc">Course Link:   https://www.st-andrews.ac.uk/subjects/computer-science/human-computer-interaction-msc</a>
+            <br>
+            <span>Country: Scotland</span>
+            <br>
+            <br>
+
+            <span>University Name:  University of Cambridge</span>
+            <br>
+            <a href="https://www.cam.ac.uk">UniLink: https://www.cam.ac.uk</a>
+            <br>
+            <span> The Guardian Score: 98.6</span>
+            <br>
+            <span>
+                Course Name: Automated Chemical Synthesis Enabled by Digital Molecular Technologies (EPSRC CDT)  - PhD
+            </span>
+            <br>
+            <span>
+                About Course:    Students will complete a comprehensive training programme in their probationary year plus
+                a 1 month guided PhD proposal which is followed by an extended research project for the award of the PhD.
+                The training programme will be completed in the first 6 months of the probationary year, and offers
+                workshops, experimental research experience and compulsory bespoke taught courses that are broken down
+                into two distinct types: Alongside the lectures, students will undertake a Guided Training Project and
+                a Guided PhD Proposal, selected from a list of projects and hosted in the Department of Chemistry or other
+                partner Department. Optional Advanced Courses will also be available to students, according to individual
+                interest/need at any time during their PhD, following the completion of their probationary year.
+            </span>
+            <br>
+            <a href=" http://www.2023.postgraduate.study.cam.ac.uk/courses/directory/pcchpdacs">Course Link:   http://www.2023.postgraduate.study.cam.ac.uk/courses/directory/pcchpdacs</a>
+            <br>
+            <span>Country: England</span>
+            <br>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
